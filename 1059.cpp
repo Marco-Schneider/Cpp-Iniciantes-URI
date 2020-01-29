@@ -15,7 +15,6 @@ int main()
             cout << i << endl;
         }
     }
-    cout << "\n";
 
     return 0;
 }
