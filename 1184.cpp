@@ -28,7 +28,7 @@ int main()
     {
         for(int j=0; j<12; j++)
         {
-            if(j > i) //Coluna > Linha
+            if(j < i) //Coluna > Linha
             {
                 soma = soma + matriz[i][j];
                 n++;
