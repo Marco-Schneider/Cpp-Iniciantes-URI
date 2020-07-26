@@ -1,4 +1,4 @@
-//URI Online Judge - Iniciantes 1183
+//URI Online Judge - Iniciantes 1184
 
 #include <iostream>
 #include <iomanip>
@@ -10,7 +10,7 @@ int main()
     double matriz[12][12];
     double soma;
     int n;
-    char operation; //Caractere que definirÃ¡ a operaÃ§Ã£o a ser realizada
+    char operation; //Caractere que definirá a operação a ser realizada
 
     cin >> operation;
 
