@@ -7,8 +7,9 @@ using namespace std;
 
 int main()
 {
-    float matriz[12][12];
-    int soma, n;
+    double matriz[12][12];
+    double soma;
+    int n;
     char operation; //Caractere que definirá a operação a ser realizada
 
     cin >> operation;
@@ -23,7 +24,7 @@ int main()
 
     soma = 0;
     n = 0;
-    for(int i=0; i<12; i++)        
+    for(int i=0; i<12; i++)
     {
         for(int j=0; j<12; j++)
         {
@@ -37,12 +38,12 @@ int main()
 
     if(operation == 'S')
     {
-        cout << setprecision(1) << fixed << float (soma) << endl;
+        cout << setprecision(1) << fixed << double (soma) << endl;
     }
     else
     {
-        cout << setprecision(1) << fixed << (soma/float (n)) << endl;
+        cout << setprecision(1) << fixed << (soma/double (n)) << endl;
     }
-    
+
     return 0;
 }
